@@ -1,0 +1,49 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3;
+  color:#565967;
+} 
+.icon{
+  width: 2rem;
+}
+.control-strip{
+  background:grey;
+  box-shadow: 0 0 5px 0 grey;
+  padding: 1rem;
+  position: relative;
+
+}
+.options{
+  display:flex;
+  justify-content: space-between;
+  color:#2d2d2d;
+  align-items: center;
+}
+.options h1{
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+.light-switch
+{
+  max-width: 300px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.switch-button
+{
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-size: 1.125rem;
+  background-color: tomato;
+  color: aliceblue;
+}
+.switch-button:hover
+{
+  background-color: brown;
+}
